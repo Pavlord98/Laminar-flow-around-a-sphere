@@ -48,6 +48,7 @@ The mesh consists of 173368 hexahedral cells, 6488 polyhedral cells and 72 prism
 
 For tracking the values of the drag coefficient I used runtime postprocessing with a function object forceCoeffs (can be found in the system folder). I used a jupyter notebook (also available in this repo) to plot theese values.
 
-
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/84512701/216769247-eec82cc9-587b-491a-97a1-283813b7427d.png"/>
+</p>
 
