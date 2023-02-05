@@ -17,7 +17,7 @@ The picture below represents the relationship of the drag coefficient and the Re
 
 ![Drag_coefficient_of_a_sphere_as_a_function_of_Reynolds_number](https://user-images.githubusercontent.com/84512701/216652882-d4c6538b-f66c-4e6e-9128-afeee3e2c9b4.png)
 
-The region of intrest for this project is up to about the Reynold's number of 300. The rest will be the topic of a different project that will be up here on github hopefully soon. 
+The region of intrest for this project is up to about the Reynold's number of 300. The rest will be the topic of a different project available [here](https://github.com/Pavlord98/Turbulent-flow-around-a-sphere).
 
 
 ## Geometry and Mesh
