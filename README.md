@@ -40,8 +40,9 @@ The mesh consists of 173368 hexahedral cells, 6488 polyhedral cells and 72 prism
 
 ## Numerical Model
 
+For each case, I first did a simulation with the potentialFoam solver to obtain a solution that will be used as an initial field in the other part of the simulation. This solver is only suitable for inviscid, irrotational and incompressible flows, but it is still very usefull for a giving us a decenst first estimate of the flow fields. 
 
-
+After that i used the pisoFoam solver with two corrector loops and zero non-orthogonal correctors. For the discretization schemes i focused on accuracy by using limited linear divergence schemes and least squares for the gradient schemes. All of these details can be found in the proper system directory. 
 
 
 ## Results and postprocessing
@@ -52,3 +53,4 @@ For tracking the values of the drag coefficient I used runtime postprocessing wi
     <img src="https://user-images.githubusercontent.com/84512701/216769247-eec82cc9-587b-491a-97a1-283813b7427d.png"/>
 </p>
 
+All of the values are very close to the experimental values and thus I conclude that the simulations are accurate.
